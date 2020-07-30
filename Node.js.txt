@@ -1,0 +1,64 @@
+var rp = require("request-promise");
+var ApiUrl = 'https://covid2019-api.herokuapp.com/v2/';
+
+function main(params){
+    
+switch (params.emp_id) {
+  case 577295:
+    return{"Name":"Gaurav Bhattacharya","Location":"Kolkata","Country":"India"}
+    break;
+  case 375611:
+    return{"Name":"Parameswar Pal","Location":"Kolkata","Country":"India"}
+     break;
+  case 849187:
+     return{"Name":"Ravi Chowdhury","Location":"New York","Country":"US"}
+      break;
+  case 699582:
+    return{"Name":"Avishek Chatterjee","Location":"Bangalore","Country":"India"}
+     break;
+  case 673556:
+    return{"Name":"Priyanka Garai","Location":"Kolkata","Country":"India"}
+     break;
+  
+}
+
+
+
+
+
+//For Individual Countries
+if(params.key!='world/total'){
+const options = {
+  
+  url: ApiUrl+'country/'+params.key,
+  json:true
+  
+};
+
+return rp(options)
+.then(res =>{
+    
+    return{data:res}
+})
+}
+
+//For World
+if(params.key=='world/total'){
+const options = {
+  
+  url: ApiUrl+'total',
+  json:true
+  
+};
+
+return rp(options)
+.then(res =>{
+    
+    return{data:res}
+})
+}
+
+
+}
+
+
