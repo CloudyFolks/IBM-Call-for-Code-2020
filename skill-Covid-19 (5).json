@@ -1,0 +1,1253 @@
+{
+  "intents": [
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Good bye"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "total_world_cases",
+      "examples": [
+        {
+          "text": "total cases in world"
+        },
+        {
+          "text": "total cases in the world today"
+        },
+        {
+          "text": "how many cases across the world?"
+        },
+        {
+          "text": "what are the total number of cases today?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Medical-Care",
+      "examples": [
+        {
+          "text": "If you have mild symptoms and are otherwise healthy, self-isolate and contact your medical provider or a COVID-19 information line for advice. Seek medical care if you have a fever, a cough, and difficulty breathing. Call in advance."
+        }
+      ]
+    },
+    {
+      "intent": "covid_description",
+      "examples": [
+        {
+          "text": "describe covid-19?"
+        },
+        {
+          "text": "what is covid?"
+        },
+        {
+          "text": "what is coronavirus?"
+        }
+      ],
+      "description": "description of covid"
+    },
+    {
+      "intent": "User_Location",
+      "examples": [
+        {
+          "text": "user location"
+        },
+        {
+          "text": "What is my current location?"
+        }
+      ],
+      "description": "User Location"
+    },
+    {
+      "intent": "No-Cognizant",
+      "examples": [
+        {
+          "text": "No-Cognizant"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Self-Care",
+      "examples": [
+        {
+          "text": "If you feel sick you should rest, drink plenty of fluid, and eat nutritious food. Stay in a separate room from other family members, and use a dedicated bathroom if possible. Clean and disinfect frequently touched surfaces. Everyone should keep a healthy lifestyle at home. Maintain a healthy diet, sleep, stay active, and make social contact with loved ones through the phone or internet. Children need extra love and attention from adults during difficult times. Keep to regular routines and schedules as much as possible. It is normal to feel sad, stressed, or confused during a crisis. Talking to people you trust, such as friends and family, can help. If you feel overwhelmed, talk to a health worker or counsellor."
+        }
+      ],
+      "description": "Self Care treatment description"
+    },
+    {
+      "intent": "Covid_vaccine",
+      "examples": [
+        {
+          "text": "Is there a vaccine, drug, therapy or treatment for COVID-19?"
+        },
+        {
+          "text": "vaccine information"
+        },
+        {
+          "text": "vaccines"
+        },
+        {
+          "text": "are there any vaccines for covid-19?"
+        }
+      ],
+      "description": "Covid 19 vaccines"
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "namaste"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "reset"
+        },
+        {
+          "text": "Good morning"
+        }
+      ],
+      "description": "This is a Greeting intent"
+    },
+    {
+      "intent": "covid_spread",
+      "examples": [
+        {
+          "text": "How does COVID-19 spread?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes-Cognizant",
+      "examples": [
+        {
+          "text": "Yes-Cognizant"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CountryName",
+      "examples": [
+        {
+          "text": "Germany",
+          "mentions": [
+            {
+              "entity": "CountryName",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Denmark"
+        },
+        {
+          "text": "US"
+        },
+        {
+          "text": "China"
+        },
+        {
+          "text": "India"
+        },
+        {
+          "text": "France"
+        },
+        {
+          "text": "United Kingdom"
+        },
+        {
+          "text": "Bhutan"
+        },
+        {
+          "text": "Russia"
+        },
+        {
+          "text": "Brazil"
+        },
+        {
+          "text": "Canada"
+        },
+        {
+          "text": "Nepal",
+          "mentions": [
+            {
+              "entity": "CountryName",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pakistan",
+          "mentions": [
+            {
+              "entity": "CountryName",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Spain"
+        }
+      ],
+      "description": "Name of Countries"
+    },
+    {
+      "intent": "Donate",
+      "examples": [
+        {
+          "text": "Donate"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid_treatment",
+      "examples": [
+        {
+          "text": "Covid treatment"
+        },
+        {
+          "text": "treatment suggestions"
+        },
+        {
+          "text": "treatments"
+        }
+      ],
+      "description": "Covid Treatments"
+    },
+    {
+      "intent": "faqs",
+      "examples": [
+        {
+          "text": "faqs"
+        }
+      ],
+      "description": "Frequenly asked questions"
+    },
+    {
+      "intent": "Employee_id",
+      "examples": [
+        {
+          "text": "849187"
+        },
+        {
+          "text": "699582"
+        },
+        {
+          "text": "577295"
+        },
+        {
+          "text": "375611"
+        },
+        {
+          "text": "673556",
+          "mentions": [
+            {
+              "entity": "Employee_id",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my employee id is 577295"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid_symptoms",
+      "examples": [
+        {
+          "text": "Symtomps"
+        },
+        {
+          "text": "symptoms"
+        },
+        {
+          "text": "coronavirus symptoms?"
+        },
+        {
+          "text": "what are the covid-19 symptoms?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "CountryName",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Spain",
+          "synonyms": [
+            "Spain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "China",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "India",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Italy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "US",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "United Kingdom",
+          "synonyms": [
+            "UK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Canada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brazil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Netherlands",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Russia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "France",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Germany",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Japan",
+          "synonyms": [
+            "Japan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nepal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pakistan",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Employee_id",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "699582",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "577295",
+          "synonyms": [
+            "577295"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "375611",
+          "synonyms": [
+            "375611"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "849187",
+          "synonyms": [
+            "849187"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "673556",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/gaurav.bhattacharya%40cognizant.com_dev/default/Cloud_Functions_COVID.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594803391969",
+      "conditions": "$var",
+      "dialog_node": "response_3_1594825242914",
+      "previous_sibling": "response_3_1594805198372"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome $webhook_result_2.Name"
+              },
+              {
+                "text": "Your Location is $webhook_result_2.Location,$webhook_result_2.Country"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1594803391969",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_3_1594805198372"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Type of Treatments",
+            "options": [
+              {
+                "label": "Self Care",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1595176191417",
+      "disabled": true,
+      "dialog_node": "response_1_1595176402771",
+      "previous_sibling": "node_10_1595182216786"
+    },
+    {
+      "type": "standard",
+      "title": "Medical-Care",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you have mild symptoms and are otherwise healthy, self-isolate and contact your medical provider or a COVID-19 information line for advice.\nSeek medical care if you have a fever, a cough, and difficulty breathing. Call in advance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595176191417",
+      "conditions": "#Medical-Care",
+      "dialog_node": "node_10_1595182216786",
+      "previous_sibling": "node_5_1595181982249"
+    },
+    {
+      "type": "standard",
+      "title": "Self Care",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you feel sick you should rest, drink plenty of fluid, and eat nutritious food. Stay in a separate room from other family members, and use a dedicated bathroom if possible. Clean and disinfect frequently touched surfaces.\nEveryone should keep a healthy lifestyle at home. Maintain a healthy diet, sleep, stay active, and make social contact with loved ones through the phone or internet. Children need extra love and attention from adults during difficult times. Keep to regular routines and schedules as much as possible.\nIt is normal to feel sad, stressed, or confused during a crisis. Talking to people you trust, such as friends and family, can help. If you feel overwhelmed, talk to a health worker or counsellor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595176191417",
+      "conditions": "#Self-Care",
+      "dialog_node": "node_5_1595181982249"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👉Total Confirmed Cases in the World : $webhook_result_1.data.data.confirmed\n👉Total active cases across the world: $webhook_result_1.data.data.active\n👉Total Recovered cases:  $webhook_result_1.data.data.recovered\n👉Total Deaths across the world:$webhook_result_1.data.data.deaths"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1594640140966",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_5_1594640236781"
+    },
+    {
+      "type": "standard",
+      "title": "Employee Check",
+      "parent": "node_8_1595183570595",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "emp_id": "@Employee_id"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1594817129701"
+      },
+      "conditions": "#Employee_id",
+      "dialog_node": "node_7_1594803391969"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "0"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1594817129701",
+      "conditions": "$var",
+      "dialog_node": "response_10_1594825226675",
+      "previous_sibling": "response_5_1594819320304"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👉Total Active Cases in $webhook_result_3.data.data.location is : $webhook_result_3.data.data.active"
+              },
+              {
+                "text": "👉Total Confirmed Cases in $webhook_result_3.data.data.location is : $webhook_result_3.data.data.confirmed"
+              },
+              {
+                "text": "👉Total Recoverd Cases in $webhook_result_3.data.data.location is : $webhook_result_3.data.data.recovered"
+              },
+              {
+                "text": "👉Total No of Deaths in $webhook_result_3.data.data.location is : $webhook_result_3.data.data.deaths"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1594817129701",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_5_1594819320304",
+      "previous_sibling": "node_3_1595233738762"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "location"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1594817129701",
+      "conditions": "#User_Location",
+      "dialog_node": "response_9_1595234469795",
+      "previous_sibling": "response_10_1594825226675"
+    },
+    {
+      "type": "standard",
+      "title": "My Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<div class=\"mapouter\"><div class=\"gmap_canvas\"><iframe width=\"600\" height=\"500\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=<$webhook_result_2.Location&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1594817129701",
+      "conditions": "#User_Location",
+      "dialog_node": "node_3_1595233738762"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_10_1595165009851",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1595165054542",
+      "previous_sibling": "response_1_1595165049949"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👉Total Active Cases in $webhook_result_4.data.data.location is : $webhook_result_4.data.data.active"
+              },
+              {
+                "text": "👉Total Confirmed Cases in $webhook_result_4.data.data.location is : $webhook_result_4.data.data.confirmed"
+              },
+              {
+                "text": "👉Total Recoverd Cases in $webhook_result_4.data.data.location is : $webhook_result_4.data.data.recovered"
+              },
+              {
+                "text": "👉Total No of Deaths in $webhook_result_4.data.data.location is : $webhook_result_4.data.data.deaths"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1595165009851",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_1_1595165049949"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi Welcome to Covid-19 Assistance. Please select your query."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "describe",
+            "options": [],
+            "description": "\tDescribe Covid/What is Covid?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "dialog_node": "response_3_1594638624272",
+      "previous_sibling": "node_2_1595183805005"
+    },
+    {
+      "type": "standard",
+      "title": "If Cognizant No",
+      "output": {
+        "generic": [
+          {
+            "title": "You may continue with FAQs",
+            "options": [
+              {
+                "label": "FAQs 💭",
+                "value": {
+                  "input": {
+                    "text": "faqs"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "#No-Cognizant",
+      "dialog_node": "node_2_1595183805005",
+      "previous_sibling": "node_8_1595183570595"
+    },
+    {
+      "type": "standard",
+      "title": "If Cognizant Employee",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your Cognizant Employee id"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "#Yes-Cognizant",
+      "dialog_node": "node_8_1595183570595"
+    },
+    {
+      "type": "standard",
+      "title": "Total Country Wise",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "key": "@CountryName"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#CountryName && @CountryName != NULL",
+      "dialog_node": "node_10_1595165009851",
+      "previous_sibling": "node_8_1594640542668"
+    },
+    {
+      "type": "standard",
+      "title": "Covid Vaccine",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "While some western, traditional or home remedies may provide comfort and alleviate symptoms of mild COVID-19, there are no medicines that have been shown to prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials of both western and traditional medicines. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19 and will continue to provide updated information as soon research results become available.\n\nThe most effective ways to protect yourself and others against COVID-19 are to:\n\n- Clean your hands frequently and thoroughly\n- Avoid touching your eyes, mouth and nose\n- Cover your cough with the bend of elbow or tissue. If a tissue is used, discard it immediately and wash your hands.\n- Maintain a distance of at least 1 metre from others."
+              },
+              {
+                "text": "<b>Go to the following</b> 👉 <a href=\"https://www.raps.org/news-and-articles/news-articles/2020/3/covid-19-vaccine-tracker\" target=\"_blank\"> link for updates on Covid-19 Vaccines </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Covid_vaccine",
+      "dialog_node": "node_8_1595225939155",
+      "previous_sibling": "node_6_1595176191417"
+    },
+    {
+      "type": "standard",
+      "title": "Covid Treatment",
+      "output": {
+        "generic": [
+          {
+            "title": "Type of Treatments",
+            "options": [
+              {
+                "label": "Self Care",
+                "value": {
+                  "input": {
+                    "text": "If you feel sick you should rest, drink plenty of fluid, and eat nutritious food. Stay in a separate room from other family members, and use a dedicated bathroom if possible. Clean and disinfect frequently touched surfaces. Everyone should keep a healthy lifestyle at home. Maintain a healthy diet, sleep, stay active, and make social contact with loved ones through the phone or internet. Children need extra love and attention from adults during difficult times. Keep to regular routines and schedules as much as possible. It is normal to feel sad, stressed, or confused during a crisis. Talking to people you trust, such as friends and family, can help. If you feel overwhelmed, talk to a health worker or counsellor."
+                  }
+                }
+              },
+              {
+                "label": "Medical treatments",
+                "value": {
+                  "input": {
+                    "text": "If you have mild symptoms and are otherwise healthy, self-isolate and contact your medical provider or a COVID-19 information line for advice. Seek medical care if you have a fever, a cough, and difficulty breathing. Call in advance."
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Chose from above type of treatments"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#covid_treatment",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1595176191417",
+      "previous_sibling": "node_4_1594640140966"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1595960846767",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Covid symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Most common symptoms:\nfever\ndry cough\ntiredness\n\nLess common symptoms:\naches and pains\nsore throat\ndiarrhoea\nconjunctivitis\nheadache\nloss of taste or smell\na rash on skin, or discolouration of fingers or toes\n\nSerious symptoms:\ndifficulty breathing or shortness of breath\nchest pain or pressure\nloss of speech or movement\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#covid_symptoms",
+      "dialog_node": "node_10_1594640755874",
+      "previous_sibling": "node_7_1595265986665"
+    },
+    {
+      "type": "standard",
+      "title": "Covid Spread",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "People can catch COVID-19 from others who have the virus. The disease spreads primarily from person to person through small droplets from the nose or mouth, which are expelled when a person with COVID-19 coughs, sneezes, or speaks. These droplets are relatively heavy, do not travel far and quickly sink to the ground. People can catch COVID-19 if they breathe in these droplets from a person infected with the virus.  This is why it is important to stay at least 1 meter) away from others. These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.  People can become infected by touching these objects or surfaces, then touching their eyes, nose or mouth.  This is why it is important to wash your hands regularly with soap and water or clean with alcohol-based hand rub.\n\nWHO is assessing ongoing research on the ways that COVID-19 is spread and will continue to share updated findings."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#covid_spread",
+      "dialog_node": "node_5_1595756019657",
+      "previous_sibling": "node_8_1595225939155"
+    },
+    {
+      "type": "standard",
+      "title": "FAQs",
+      "output": {
+        "generic": [
+          {
+            "title": "<b>Chose from the List</b>",
+            "options": [
+              {
+                "label": "✔️ What is Covid?",
+                "value": {
+                  "input": {
+                    "text": "what is covid"
+                  }
+                }
+              },
+              {
+                "label": "✔️ Covid-19 Symptoms",
+                "value": {
+                  "input": {
+                    "text": "Symtomps"
+                  }
+                }
+              },
+              {
+                "label": "✔️ Covid-19 Treatments",
+                "value": {
+                  "input": {
+                    "text": "treatments"
+                  }
+                }
+              },
+              {
+                "label": "✔️ Vaccines",
+                "value": {
+                  "input": {
+                    "text": "vaccines"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "✔️ How does COVID-19 spread?",
+                "value": {
+                  "input": {
+                    "text": "How does COVID-19 spread?"
+                  }
+                }
+              },
+              {
+                "label": "✔️ Latest  World Data",
+                "value": {
+                  "input": {
+                    "text": "Total cases across the world?"
+                  }
+                }
+              },
+              {
+                "label": "✔️ Donate Here",
+                "value": {
+                  "input": {
+                    "text": "Donate"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "👉 Try typing the name of a country (e.g. \"India\" or \"US\") to get its latest case numbers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#faqs",
+      "dialog_node": "node_7_1595265986665",
+      "previous_sibling": "node_4_1594817129701"
+    },
+    {
+      "type": "standard",
+      "title": "Total World Cases",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "key": "world/total"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#total_world_cases",
+      "dialog_node": "node_4_1594640140966",
+      "previous_sibling": "node_10_1595165009851"
+    },
+    {
+      "type": "standard",
+      "title": "Country Wise",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "key": "$webhook_result_2.Country"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1595233738762"
+      },
+      "conditions": "$var==1",
+      "dialog_node": "node_4_1594817129701",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for using our assistance"
+              },
+              {
+                "text": "Have a nice day ahead 🙂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1595960846767",
+      "previous_sibling": "node_9_1595756670835"
+    },
+    {
+      "type": "standard",
+      "title": "Donate Now",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Covid-19 Solidarity Response Fund is a secure way for individuals, philanthropies and businesses to contribute to the WHO-led effort to respond to the pandemic."
+              },
+              {
+                "text": "<a href=\"https://covid19responsefund.org/en/\" target=\"_blank\">Donate Here</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Donate",
+      "dialog_node": "node_9_1595756670835",
+      "previous_sibling": "node_5_1595756019657"
+    },
+    {
+      "type": "standard",
+      "title": "covid description",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.\n\nMost people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.\n\nThe best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#covid_description",
+      "dialog_node": "node_8_1594640542668",
+      "previous_sibling": "node_10_1594640755874"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi  👋 Welcome to Covid-19 Assistance. "
+              },
+              {
+                "text": "This chatbot will help you with various FAQs of Covid-19 as well as with the latest country wise data"
+              },
+              {
+                "text": "Also it will help Cognizant employees with latest covid-19 case data around them"
+              },
+              {
+                "text": "Most information are collected from World Health Organization updates "
+              },
+              {
+                "text": "Are you a Cognizant Employee?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "YES/NO",
+            "options": [
+              {
+                "label": "👉 Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes-Cognizant"
+                  }
+                }
+              },
+              {
+                "label": "👉 No",
+                "value": {
+                  "input": {
+                    "text": "No-Cognizant"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "⭕️ Type <b>Reset</b> ,everytime you want to start over"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome || #Greetings",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Covid-19",
+  "language": "en",
+  "description": ""
+}
